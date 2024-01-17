@@ -1,0 +1,17 @@
+#Punto 14
+studenti = ["Alex", "Bob", "Cindy", "Dan", "Emma", "Faith", "Grace", "Henry", "Isabelle", "John"]
+i = 0
+listaPari = list()
+listaDispari = list ()
+
+while i<len(studenti):
+	test = i%2
+	if test == 0:
+		listaPari.append(studenti[i])
+		i +=1
+	else:
+		listaDispari.append(studenti[i])
+		i +=1
+		
+print(listaPari)
+print(listaDispari)
