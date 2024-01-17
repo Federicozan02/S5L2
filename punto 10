@@ -1,0 +1,11 @@
+#Punto 10
+guadagni =[100,90,70,40,50,80,90,120,80,20,50,50]
+i = 0
+sum = 0
+
+while i < 12:
+	sum += guadagni[i]
+	i+=1
+
+media = sum/12
+print(media)
