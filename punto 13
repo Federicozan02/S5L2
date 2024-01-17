@@ -1,0 +1,10 @@
+#Punto 13
+prezzi = ["100 €", "200 €", "500 €", "10 €", "50 €", "70 €"]
+i = 0
+n = len(prezzi)
+
+while i < n:
+	prezzi[i]=prezzi[i].replace("€","$")
+	i+=1
+
+print(prezzi)
