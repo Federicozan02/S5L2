@@ -13,5 +13,5 @@ while i<len(studenti):
 		listaDispari.append(studenti[i])
 		i +=1
 		
-print(listaPari)
-print(listaDispari)
+print("La lista dei pari: ",listaPari)
+print("La lista dei dispari: ",listaDispari)
