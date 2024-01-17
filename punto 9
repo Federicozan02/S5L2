@@ -1,0 +1,12 @@
+#Punto 9
+n = int (input("Inserire il numero di potenze: "))
+k = int (input("Inserire il numero: "))
+i=0
+risultati= list()
+
+while i<n:
+	pot = k**i
+	risultati.append(pot)
+	i += 1
+
+print("I risultati sono: ", risultati)
