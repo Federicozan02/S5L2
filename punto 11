@@ -1,0 +1,21 @@
+#Punto 11
+lista_cf = ["ABCDEF95G01A123B", "GHIJKL91M02A321C", "MNOPQR89S03A456D", "STUVWX95Z04A654E", "XYZABC01D05A789F", "DEFGHI95J06A987G"]
+lista_res = list()
+i = 0
+j = 0
+elem = "95"
+
+while i<6:
+	ricerca = lista_cf[i]
+	if elem in ricerca:
+		lista_res.append(ricerca)
+		i += 1
+	else:
+		i += 1
+
+print(lista_res)
+
+while j<3:
+	newElem = lista_res[j]
+	print("Il nome è:", newElem[0:3], " Il cognome è:", newElem[3:6])
+	j += 1	
