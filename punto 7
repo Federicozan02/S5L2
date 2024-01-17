@@ -2,7 +2,15 @@
 inInput = input("Inserire una stringa: ")
 lung = len(inInput)
 
-if lung > 6:
+if lung >= 6:
  	print(inInput[0:3], "...", inInput[lung-3:])
+elif lung == 5:
+	print(inInput[0:2], "...", inInput[lung-2:])
+elif lung == 4:
+	print(inInput[0:1], "...", inInput[lung-1:])
+elif lung == 3:
+	print(inInput[0:1], "...", inInput[lung-1:])
+elif lung == 2:
+	print(inInput[0], "...", inInput[lung])
 else:
  	print("Attenzione, la stringa è troppo breve")
