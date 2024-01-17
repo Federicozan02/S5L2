@@ -1,0 +1,14 @@
+#Punto 8
+n = int(input("Scrivere un numero intero: "))
+i=1
+lista = list()
+
+while i < n+1:
+	div = n%i
+	if div == 0:
+		lista.append(i)
+		i += 1
+	else:
+		i += 1
+
+print(lista)
