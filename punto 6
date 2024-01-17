@@ -1,0 +1,12 @@
+#Punto 6
+studenti =["Alex", "Bob", "Cindy", "Dan", "Emma", "Faith", "Grace", "Henry"]
+corsi=["Cybersecurity", "Data Analyst", "Backend", "Frontend", "Data Analyst", "Backend"]
+
+corsi.append("Frontend")
+corsi.append("Cybersecurity")
+
+if len(studenti)==len(corsi):
+	print("La lista studenti è: ", studenti)
+	print("La lista corsi è: ", corsi)
+else:
+	print("Le liste non hanno la stessa lunghezza, controlla meglio.")
