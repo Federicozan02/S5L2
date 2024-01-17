@@ -1,0 +1,17 @@
+#Punto 12
+studenti = ["Alex", "Bob", "Cindy", "Dan", "Emma", "Faith", "Grace", "Henry"] 
+corsi = ["Cybersecurity", "Data Analyst", "Backend", "Frontend", "Data Analyst", "Backend", "Frontend", "Cybersecurity"] 
+edizioni = [1, 2, 3, 2, 2, 1, 3, 3]
+num = len(edizioni)
+i = 0
+
+while i < num:
+	if edizioni[i] == 1:
+		print("Lo studente ", studenti[i], " è stato iscritto alla prima edizione")
+		i+=1
+	else:
+		i+=1
+
+#Si noti come l'operazione while + if collega in base all'indice della lista, lo studente con l'edizione. In questo caso la nostra
+#ipotetica chiave di join è l'indice della lista.
+
