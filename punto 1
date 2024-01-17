@@ -1,0 +1,8 @@
+#Punto 1
+nome_scuola = "Epicode"
+numchar = len(nome_scuola)
+i = 0
+
+while i < numchar:
+	print(nome_scuola[i])
+	i+=1 
