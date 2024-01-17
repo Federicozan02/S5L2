@@ -1,0 +1,8 @@
+#Punto 7
+inInput = input("Inserire una stringa: ")
+lung = len(inInput)
+
+if lung > 6:
+ 	print(inInput[0:3], "...", inInput[lung-3:])
+else:
+ 	print("Attenzione, la stringa è troppo breve")
